@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+
+  input[type='range']::-webkit-slider-thumb {
+    @apply w-5 h-5 bg-lavender-500 rounded-full cursor-pointer appearance-none shadow-md;
+  }
+
+  input[type='range']::-moz-range-thumb {
+    @apply w-5 h-5 bg-lavender-500 rounded-full cursor-pointer border-0 shadow-md;
+  }
+
+  input[type='date']::-webkit-calendar-picker-indicator,
+  input[type='time']::-webkit-calendar-picker-indicator {
+    filter: invert(0.6);
+    cursor: pointer;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
