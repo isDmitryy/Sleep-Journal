@@ -1,28 +1,28 @@
 # Sleep Journal
 
-A personal sleep tracker SPA built with React + TypeScript.
+Персональный трекер сна SPA, созданный с использованием React + TypeScript.
 
-## Features
+## Функции
 
-- **Log sleep entries** — record bedtime, wake time, sleep quality (1–10) and notes
-- **Dashboard** — today's summary with key stats at a glance
-- **History** — full list of past entries with edit and delete
-- **Statistics** — charts for sleep duration trends and quality over time
-- **Dark theme** — deep blue/purple palette, calm and minimalist
-- **Offline-first** — all data stored in localStorage, no backend required
-- **Smooth animations** — Framer Motion transitions between tabs
+- **Log sleep entries** — запись времени отхода ко сну, времени пробуждения, качества сна (1–10) и заметки
+- **Dashboard** — сводка за сегодня с ключевыми статистическими данными
+- **History** — полный список прошлых записей с возможностью редактирования и удаления
+- **Statistics** — графики динамики продолжительности и качества сна с течением времени
+- **Dark theme** — глубокая сине-фиолетовая палитра, спокойная и минималистичная
+- **Offline-first** — все данные хранятся в localStorage, бэкенд не требуется
+- **Smooth animations** — переходы между вкладками в Framer Motion
 
-## Tech Stack
+## Технологический стек
 
-| Tool | Purpose |
+| Инструмент | Назначение |
 | --- | --- |
-| React + Vite | UI framework & build tool |
+| React + Vite | Фреймворк пользовательского интерфейса и инструмент сборки |
 | TypeScript | Type safety |
-| Tailwind CSS | Styling |
-| Recharts | Charts |
-| date-fns | Date utilities |
-| Framer Motion | Animations |
-| localStorage | Data persistence |
+| Tailwind CSS | Типобезопасность  |
+| Recharts |  Графики |
+| date-fns | Утилиты для работы с датами |
+| Framer Motion | Анимация |
+| localStorage | Сохранение данных |
 
 ## Getting Started
 
@@ -33,14 +33,14 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## Build
+## Сборка
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Project Structure
+## Структура проекта
 
 ```text
 src/
